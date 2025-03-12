@@ -82,6 +82,14 @@ dichotomies between physical and digital, subject and object, art and market.
             The exhibition, which will take place at Villa Doria d&apos;Angri in Posillipo as part of Napuleth Open Village 2025, aims to be a platform for experimentation between art and new digital economies. Through an immersive journey, it invites the public to reflect on the role of the network and hybridization in redefining value in the contemporary era.
           </p>
         </div>
+<div>
+          <h4 className={styles.title}>
+            Contact
+          </h4>
+          <p>
+            For inquiries regarding limited partnerships and sponsorships tiers, please contact: <Link href="mailto:visions@napuleth.org" style={{textDecoration: "underline"}}>visions@napuleth.org</Link>
+          </p>
+        </div>
          <div className={styles.imageContainer}>
           <div style={{
             width: '60vw',
@@ -93,14 +101,6 @@ dichotomies between physical and digital, subject and object, art and market.
           }}>
 
           </div>
-        </div>
-<div>
-          <h4 className={styles.title}>
-            Contact
-          </h4>
-          <p>
-            For inquiries regarding limited partnerships and sponsorships tiers, please contact : <Link href="mailto:visions@napuleth.org">visions@napuleth.org</Link>
-          </p>
         </div>
 
       </div>
