@@ -1,9 +1,32 @@
+@font-face {
+  font-family: 'aeonik';
+  src: url('../font/Aeonik-Medium.woff2') format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'aeonik';
+  src: url('../font/Aeonik-Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'aeonik';
+  src: url('../font/Aeonik-Light.woff2') format('woff2');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'aeonik';
+  src: url('../font/Aeonik-Black.woff2') format('woff2');
+  font-weight: 900;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'aeonik' !important;
 }
 
 a {
@@ -13,4 +36,5 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: 'aeonik' !important;
 }
