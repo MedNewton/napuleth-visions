@@ -67,7 +67,7 @@ export default function Home() {
         </div>
         <div>
           <h4 className={styles.title}>
-            Abstract mostra
+            Abstract exhibition
           </h4>
           <p>
             The exhibition explores the concept of &quot;concrescence&quot;, understood as the result of continuously interacting forces that shape
