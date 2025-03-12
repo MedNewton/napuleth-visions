@@ -11,12 +11,11 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.container}>
         <div className={styles.imageContainer}>
-          <Image src={logo} alt="logo" width={200} height={80} />
+          <Image src={logo} alt="logo" width={200} height={80} style={{
+            filter: 'brightness(0)'
+          }} />
         </div>
         <div>
-          <h4 className={styles.title}>
-            Napuleth Visions
-          </h4>
           <p>
             Napuleth Visions è un progetto espositivo che si inserisce nel contesto di Napuleth con l&apos;obiettivo di creare una
             piattaforma di scambio tra la realtà delle criptovalute e il sistema dell&apos;arte contemporanea. Il progetto ambisce a
