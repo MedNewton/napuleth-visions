@@ -65,6 +65,22 @@ export default function Home() {
             Napuleth Visions is an innovative initiative, born from the energy and vision of a group of highly qualified young creatives, with skills in both art and technology. The exhibition is not just an exhibition event, but a stable meeting point between art and innovation, destined to grow and transform year after year. The long-term goal is to develop tailor-made technological solutions for the art world, redefining the ways of enjoying and producing art in the digital era.
           </p>
         </div>
+        <div>
+          <h4 className={styles.title}>
+            Abstract mostra
+          </h4>
+          <p>
+            The exhibition explores the concept of "concrescence", understood as the result of continuously interacting forces that shape
+matter, meaning and value. Inspired by the thought of Bruno Latour, the exhibition questions traditional
+dichotomies between physical and digital, subject and object, art and market.
+          </p>
+          <p>
+            Through the comparison with the phenomenon of cryptocurrencies, Concrescenze analyzes value as a fluid and evolving entity, shaped by network dynamics. The parallel between blockchain and digital art becomes a key point to understand how value, freed from physical supports, is built through constant interactions and reconfigurations.
+          </p>
+          <p>
+            The exhibition, which will take place at Villa Doria d&apos;Angri in Posillipo as part of Napuleth Open Village 2025, aims to be a platform for experimentation between art and new digital economies. Through an immersive journey, it invites the public to reflect on the role of the network and hybridization in redefining value in the contemporary era.
+          </p>
+        </div>
          <div className={styles.imageContainer}>
           <div style={{
             width: '60vw',
