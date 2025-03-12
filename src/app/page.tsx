@@ -17,9 +17,6 @@ export default function Home() {
           }} />
         </div>
         <div>
-          <h4 className={styles.title}>
-            Intro
-          </h4>
           <p>
             Napuleth Visions è un progetto espositivo che si inserisce nel contesto di Napuleth con l&apos;obiettivo di creare una
             piattaforma di scambio tra la realtà delle criptovalute e il sistema dell&apos;arte contemporanea. Il progetto ambisce a
@@ -56,9 +53,6 @@ export default function Home() {
           </p>
         </div>
         <div>
-         <h4 className={styles.title}>
-            Intro
-          </h4>
           <p>
             Napuleth Visions is an exhibition project that fits into the context of Napuleth with the aim of creating a platform for exchange between the cryptocurrency world and the contemporary art system. The project aims to become a recurring event, exploring the intersections between the digital economy and artistic practices to foster a critical dialogue on the transformations of value in the era of decentralization.
           </p>
