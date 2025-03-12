@@ -16,6 +16,9 @@ export default function Home() {
           }} />
         </div>
         <div>
+          <h4 className={styles.title}>
+            Intro
+          </h4>
           <p>
             Napuleth Visions è un progetto espositivo che si inserisce nel contesto di Napuleth con l&apos;obiettivo di creare una
             piattaforma di scambio tra la realtà delle criptovalute e il sistema dell&apos;arte contemporanea. Il progetto ambisce a
@@ -60,6 +63,17 @@ export default function Home() {
             La mostra, che si svolgerà a Villa Doria d&apos;Angri a Posillipo nell&apos;ambito di Napuleth Open Village 2025, vuole essere
             una piattaforma di sperimentazione tra arte e nuove economie digitali. Attraverso un percorso immersivo, invita il
             pubblico a riflettere sul ruolo della rete e dell&apos;ibridazione nella ridefinizione del valore nell&apos;era contemporanea.
+          </p>
+        </div>
+        <div>
+         <h4 className={styles.title}>
+            Intro
+          </h4>
+          <p>
+            Napuleth Visions is an exhibition project that fits into the context of Napuleth with the aim of creating a platform for exchange between the cryptocurrency world and the contemporary art system. The project aims to become a recurring event, exploring the intersections between the digital economy and artistic practices to foster a critical dialogue on the transformations of value in the era of decentralization.
+          </p>
+          <p>
+            Napuleth Visions is an innovative initiative, born from the energy and vision of a group of highly qualified young creatives, with skills in both art and technology. The exhibition is not just an exhibition event, but a stable meeting point between art and innovation, destined to grow and transform year after year. The long-term goal is to develop tailor-made technological solutions for the art world, redefining the ways of enjoying and producing art in the digital era.
           </p>
         </div>
 
