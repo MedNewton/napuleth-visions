@@ -33,22 +33,11 @@ export default function Home() {
             e produzione artistica nell&apos;era digitale.
           </p>
         </div>
-        <div className={styles.imageContainer}>
-        <h4 className={styles.title}>
+       
+        <div>
+          <h4 className={styles.title}>
             Abstract mostra
           </h4>
-          <div style={{
-            width: '60vw',
-            height: '75vh',
-            backgroundImage: `url(${img1.src})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-          }}>
-
-          </div>
-        </div>
-        <div>
           <p>
             La mostra esplora il concetto di &quot;concrescenza&quot;, inteso come il risultato di forze in continua interazione che modellano
             materia, significato e valore. Ispirata al pensiero di Bruno Latour, l&apos;esposizione mette in discussione le tradizionali
@@ -75,6 +64,18 @@ export default function Home() {
           <p>
             Napuleth Visions is an innovative initiative, born from the energy and vision of a group of highly qualified young creatives, with skills in both art and technology. The exhibition is not just an exhibition event, but a stable meeting point between art and innovation, destined to grow and transform year after year. The long-term goal is to develop tailor-made technological solutions for the art world, redefining the ways of enjoying and producing art in the digital era.
           </p>
+        </div>
+         <div className={styles.imageContainer}>
+          <div style={{
+            width: '60vw',
+            height: '75vh',
+            backgroundImage: `url(${img1.src})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+          }}>
+
+          </div>
         </div>
 
 
