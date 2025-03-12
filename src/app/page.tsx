@@ -31,6 +31,9 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.imageContainer}>
+        <h4 className={styles.title}>
+            Abstract mostra
+          </h4>
           <div style={{
             width: '60vw',
             height: '75vh',
@@ -43,9 +46,6 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <h4 className={styles.title}>
-            Abstract mostra
-          </h4>
           <p>
             La mostra esplora il concetto di &quot;concrescenza&quot;, inteso come il risultato di forze in continua interazione che modellano
             materia, significato e valore. Ispirata al pensiero di Bruno Latour, l&apos;esposizione mette in discussione le tradizionali
