@@ -70,7 +70,7 @@ export default function Home() {
             Abstract mostra
           </h4>
           <p>
-            The exhibition explores the concept of "concrescence", understood as the result of continuously interacting forces that shape
+            The exhibition explores the concept of &quot;concrescence&quot;, understood as the result of continuously interacting forces that shape
 matter, meaning and value. Inspired by the thought of Bruno Latour, the exhibition questions traditional
 dichotomies between physical and digital, subject and object, art and market.
           </p>
