@@ -1,6 +1,7 @@
 
 import styles from "./index.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 import img1 from '../assets/images/image1.webp'
 import logo from '../assets/images/logo.webp'
@@ -93,7 +94,14 @@ dichotomies between physical and digital, subject and object, art and market.
 
           </div>
         </div>
-
+<div>
+          <h4 className={styles.title}>
+            Contact
+          </h4>
+          <p>
+            For inquiries regarding limited partnerships and sponsorships tiers, please contact : <Link href="mailto:visions@napuleth.org">visions@napuleth.org</Link>
+          </p>
+        </div>
 
       </div>
     </main>
