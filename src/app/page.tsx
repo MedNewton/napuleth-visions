@@ -31,10 +31,10 @@ export default function Home() {
             e produzione artistica nell&apos;era digitale.
           </p>
         </div>
-       
+
         <div>
           <h4 className={styles.title}>
-            Abstract mostra
+            Abstract
           </h4>
           <p>
             La mostra esplora il concetto di &quot;concrescenza&quot;, inteso come il risultato di forze in continua interazione che modellano
@@ -62,12 +62,12 @@ export default function Home() {
         </div>
         <div>
           <h4 className={styles.title}>
-            Abstract exhibition
+            Abstract
           </h4>
           <p>
             The exhibition explores the concept of &quot;concrescence&quot;, understood as the result of continuously interacting forces that shape
-matter, meaning and value. Inspired by the thought of Bruno Latour, the exhibition questions traditional
-dichotomies between physical and digital, subject and object, art and market.
+            matter, meaning and value. Inspired by the thought of Bruno Latour, the exhibition questions traditional
+            dichotomies between physical and digital, subject and object, art and market.
           </p>
           <p>
             Through the comparison with the phenomenon of cryptocurrencies, Concrescenze analyzes value as a fluid and evolving entity, shaped by network dynamics. The parallel between blockchain and digital art becomes a key point to understand how value, freed from physical supports, is built through constant interactions and reconfigurations.
@@ -76,25 +76,18 @@ dichotomies between physical and digital, subject and object, art and market.
             The exhibition, which will take place at Villa Doria d&apos;Angri in Posillipo as part of Napuleth Open Village 2025, aims to be a platform for experimentation between art and new digital economies. Through an immersive journey, it invites the public to reflect on the role of the network and hybridization in redefining value in the contemporary era.
           </p>
         </div>
-<div>
+        <div>
           <h4 className={styles.title}>
             Contact
           </h4>
           <p>
-            For inquiries regarding limited partnerships and sponsorships tiers, please contact: <Link href="mailto:visions@napuleth.org" style={{textDecoration: "underline"}}>visions@napuleth.org</Link>
+            For inquiries regarding limited partnerships and sponsorships tiers, please contact: <Link href="mailto:visions@napuleth.org" style={{ textDecoration: "underline" }}>visions@napuleth.org</Link>
           </p>
         </div>
-         <div className={styles.imageContainer}>
-          <div style={{
-            width: '60vw',
-            height: '75vh',
-            backgroundImage: `url(${img1.src})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-          }}>
-
-          </div>
+        <div className={styles.imageContainer}>
+          <Image src={img1} alt="napuleth visions" width="1000"
+            height="500"
+            sizes="100vw, (max-width: 600px) 500px" objectFit="cover"></Image>
         </div>
 
       </div>
