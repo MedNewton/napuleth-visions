@@ -30,9 +30,9 @@ export default function Home() {
         <div className={styles.header}>
           <Menu menuButton={
               <Image src={language == "en" ? enFlag : itFlag} alt="language" width={40} height={40} style={{borderRadius: '50%', border: 'solid 1px #000'}}></Image>
-          } menuClassName="my-menu" direction="bottom" align="center" position="anchor" arrow>
-            <MenuItem onClick={toggleLanguage} style={{cursor: 'pointer'}}>{language == "en" ? "English" : "Inglese"}</MenuItem>
-            <MenuItem onClick={toggleLanguage} style={{cursor: 'pointer'}}>{language == "en" ? "Italian" : "Italiano"}</MenuItem>
+          } menuClassName="my-menu" direction="bottom" align="center" position="auto" arrow>
+            <MenuItem className="my-menuitem" onClick={toggleLanguage} style={{cursor: 'pointer'}}>{language == "en" ? "English" : "Inglese"}</MenuItem>
+            <MenuItem className="my-menuitem" onClick={toggleLanguage} style={{cursor: 'pointer'}}>{language == "en" ? "Italian" : "Italiano"}</MenuItem>
           </Menu>
         </div>
         <div className={styles.imageContainer}>

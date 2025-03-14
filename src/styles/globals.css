@@ -38,3 +38,21 @@ a {
   box-sizing: border-box;
   font-family: 'aeonik' !important;
 }
+
+.szh-menu{
+  min-width: unset !important;
+}
+
+.my-menu {
+  background-color: #FFFFFF !important;
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+  width: fit-content !important;
+  min-width: unset !important;
+}
+
+.my-menuitem {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  min-width: unset !important;
+}
