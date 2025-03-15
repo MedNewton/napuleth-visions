@@ -44,11 +44,12 @@ a {
 }
 
 .my-menu {
-  background-color: #FFFFFF !important;
+  background-color: transparent !important;
   padding-left: 0rem !important;
   padding-right: 0rem !important;
   width: fit-content !important;
   min-width: unset !important;
+  box-shadow: none !important;
 }
 
 .my-menuitem {
