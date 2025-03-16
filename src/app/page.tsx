@@ -81,7 +81,7 @@ export default function Home() {
           language == "it" && (
             <div>
               <h4 className={styles.title}>
-                Astratto
+                Abstract
               </h4>
               <p>
                 La mostra esplora il concetto di &quot;concrescenza&quot;, inteso come risultato di forze in continua interazione che danno forma alla materia, al significato e al valore. Ispirata dal pensiero di Bruno Latour, la mostra mette in discussione le tradizionali dicotomie tra fisico e digitale, soggetto e oggetto, arte e mercato.
@@ -121,7 +121,7 @@ export default function Home() {
           language == "it" && (
             <div>
               <h4 className={styles.title}>
-                Contatto
+                Contatti
               </h4>
               <p>
                 Per informazioni sui livelli di partnership e sponsorizzazioni, contattare: <Link href="mailto:visions@napuleth.org" style={{ textDecoration: "underline" }}>visions@napuleth.org</Link>
