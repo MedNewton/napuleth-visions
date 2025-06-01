@@ -178,7 +178,7 @@ export default function Home() {
           language == "en" && (
             <div>
               <h4 className={styles.title}>
-                Artisti
+                Artists
               </h4>
               <h4 className={styles.artists}>
                 Clarissa Falco
