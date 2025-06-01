@@ -87,6 +87,23 @@
   }
 }
 
+.arists {
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  margin: 0;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .artists {
+    font-size: 2rem;
+  }
+}
+
 .pinkSpan {
   color: hsl(280 100% 70%);
 }
