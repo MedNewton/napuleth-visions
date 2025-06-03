@@ -10,6 +10,7 @@ import '@szhsin/react-menu/dist/transitions/zoom.css';
 
 
 import img1 from '../assets/images/image1.webp'
+import sanCarlo from '../assets/images/SanCarlo.png'
 import logo from '../assets/images/logo.webp'
 import itFlag from '../assets/images/italian.png'
 import enFlag from '../assets/images/english.png'
@@ -116,7 +117,7 @@ export default function Home() {
           )
         }
 
-{
+        {
           language == "it" && (
             <div>
               <h4 className={styles.title}>
@@ -265,6 +266,35 @@ export default function Home() {
             sizes="100vw, (max-width: 600px) 500px" objectFit="cover"></Image>
         </div>
 
+
+        {
+          language == "it" && (
+            <div>
+              <h4 className={styles.artists}>
+                Patrocinato da
+              </h4>
+              <div className={styles.sponsorContainer}>
+                  <Image src={sanCarlo} alt="Teatro di San Carlo" width="300"
+                  // height="auto"
+                  sizes="100vw, (max-width: 600px) 500px" objectFit="cover"></Image>
+              </div>
+            </div>
+          )
+        }
+        {
+          language == "en" && (
+            <div>
+              <h4 className={styles.artists}>
+                Sponsored by
+              </h4>
+              <div className={styles.sponsorContainer}>
+                  <Image src={sanCarlo} alt="Teatro di San Carlo" width="300"
+                  // height="auto"
+                  sizes="100vw, (max-width: 600px) 500px" objectFit="cover"></Image>
+              </div>
+            </div>
+          )
+        }
       </div>
     </main>
   );
