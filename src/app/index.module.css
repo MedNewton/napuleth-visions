@@ -37,11 +37,12 @@
   justify-content: center;
   gap: 0rem;
   overflow: hidden;
-  img {
+}
+
+.sponsorContainer img {
     max-inline-size: 100%;
     block-size: auto;
     }
-}
 
 .header{
   display: flex;
