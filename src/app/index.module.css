@@ -28,6 +28,22 @@
   overflow: hidden;
 }
 
+.sponsorContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 0rem;
+  overflow: hidden;
+}
+
+.sponsorContainer img {
+    max-inline-size: 100%;
+    block-size: auto;
+    }
+
 .header{
   display: flex;
   flex-direction: row;
@@ -100,6 +116,23 @@
 
 @media (min-width: 640px) {
   .artists {
+    font-size: 2rem;
+  }
+}
+
+.sponsor {
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  margin: 0;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .sponsor {
     font-size: 2rem;
   }
 }
