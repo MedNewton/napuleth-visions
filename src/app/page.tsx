@@ -270,13 +270,16 @@ export default function Home() {
         {
           language == "it" && (
             <div>
-              <h4 className={styles.artists}>
+              <h4 className={styles.sponsor}>
                 Patrocinato da
               </h4>
               <div className={styles.sponsorContainer}>
-                  <Image src={sanCarlo} alt="Teatro di San Carlo" width="300"
-                  // height="auto"
-                  sizes="100vw, (max-width: 600px) 500px" objectFit="cover"></Image>
+                  <Image src={sanCarlo} 
+                    alt="Teatro di San Carlo" 
+                    width="300"
+                    height="150"
+                    objectFit="contain"
+                  ></Image>
               </div>
             </div>
           )
@@ -284,13 +287,16 @@ export default function Home() {
         {
           language == "en" && (
             <div>
-              <h4 className={styles.artists}>
+              <h4 className={styles.sponsor}>
                 Sponsored by
               </h4>
               <div className={styles.sponsorContainer}>
-                  <Image src={sanCarlo} alt="Teatro di San Carlo" width="300"
-                  // height="auto"
-                  sizes="100vw, (max-width: 600px) 500px" objectFit="cover"></Image>
+                  <Image src={sanCarlo} 
+                    alt="Teatro di San Carlo" 
+                    width="300"
+                    height="150"
+                    objectFit="contain"
+                  ></Image>
               </div>
             </div>
           )
