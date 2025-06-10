@@ -11,6 +11,7 @@ import '@szhsin/react-menu/dist/transitions/zoom.css';
 
 import img1 from '../assets/images/image1.webp'
 import sanCarlo from '../assets/images/SanCarlo.png'
+import civita from '../assets/images/civita.png'
 import logo from '../assets/images/logo.webp'
 import itFlag from '../assets/images/italian.png'
 import enFlag from '../assets/images/english.png'
@@ -280,6 +281,13 @@ export default function Home() {
                     height="150"
                     objectFit="contain"
                   ></Image>
+
+                  <Image src={civita} 
+                    alt="Associazione Civita" 
+                    width="300"
+                    height="150"
+                    objectFit="contain"
+                  ></Image>
               </div>
             </div>
           )
@@ -288,11 +296,18 @@ export default function Home() {
           language == "en" && (
             <div>
               <h4 className={styles.sponsor}>
-                Sponsored by
+                With the Patronage of
               </h4>
               <div className={styles.sponsorContainer}>
                   <Image src={sanCarlo} 
                     alt="Teatro di San Carlo" 
+                    width="300"
+                    height="150"
+                    objectFit="contain"
+                  ></Image>
+
+                  <Image src={civita} 
+                    alt="Associazione Civita" 
                     width="300"
                     height="150"
                     objectFit="contain"
