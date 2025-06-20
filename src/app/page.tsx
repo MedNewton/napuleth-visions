@@ -483,6 +483,9 @@ export default function Home() {
                   width="60"
                   height="10"
                   objectFit="contain"
+                  style={{
+                    scale: 0.85
+                  }}
                 ></Image>
               </div>
             </div>
@@ -514,6 +517,9 @@ export default function Home() {
                   width="65"
                   height="10"
                   objectFit="contain"
+                  style={{
+                    scale: 0.85
+                  }}
                 ></Image>
               </div>
             </div>
