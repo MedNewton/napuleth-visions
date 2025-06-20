@@ -479,7 +479,7 @@ export default function Home() {
                 ></Image>
 
                 <Image src={commune}
-                  alt="Associazione Civita"
+                  alt="Commune Di Napoli"
                   width="60"
                   height="10"
                   objectFit="contain"
@@ -513,7 +513,7 @@ export default function Home() {
                 ></Image>
 
                 <Image src={commune}
-                  alt="Associazione Civita"
+                  alt="Commune Di Napoli"
                   width="65"
                   height="10"
                   objectFit="contain"
