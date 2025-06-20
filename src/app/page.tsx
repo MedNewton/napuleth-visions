@@ -12,6 +12,7 @@ import '@szhsin/react-menu/dist/transitions/zoom.css';
 import img1 from '../assets/images/image2.webp'
 import sanCarlo from '../assets/images/SanCarlo.png'
 import civita from '../assets/images/civita.png'
+import commune from '../assets/images/commune.webp'
 import logo from '../assets/images/logo.webp'
 import itFlag from '../assets/images/italian.png'
 import enFlag from '../assets/images/english.png'
@@ -465,15 +466,22 @@ export default function Home() {
               <div className={styles.sponsorContainer}>
                 <Image src={sanCarlo}
                   alt="Teatro di San Carlo"
-                  width="300"
+                  width="200"
                   height="150"
                   objectFit="contain"
                 ></Image>
 
                 <Image src={civita}
                   alt="Associazione Civita"
-                  width="300"
+                  width="200"
                   height="150"
+                  objectFit="contain"
+                ></Image>
+
+                <Image src={commune}
+                  alt="Associazione Civita"
+                  width="60"
+                  height="10"
                   objectFit="contain"
                 ></Image>
               </div>
@@ -489,15 +497,22 @@ export default function Home() {
               <div className={styles.sponsorContainer}>
                 <Image src={sanCarlo}
                   alt="Teatro di San Carlo"
-                  width="300"
+                  width="200"
                   height="150"
                   objectFit="contain"
                 ></Image>
 
                 <Image src={civita}
                   alt="Associazione Civita"
-                  width="300"
+                  width="200"
                   height="150"
+                  objectFit="contain"
+                ></Image>
+
+                <Image src={commune}
+                  alt="Associazione Civita"
+                  width="65"
+                  height="10"
                   objectFit="contain"
                 ></Image>
               </div>
