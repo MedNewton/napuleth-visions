@@ -9,7 +9,7 @@ import '@szhsin/react-menu/dist/index.css';
 import '@szhsin/react-menu/dist/transitions/zoom.css';
 
 
-import img1 from '../assets/images/image1.webp'
+import img1 from '../assets/images/image2.webp'
 import sanCarlo from '../assets/images/SanCarlo.png'
 import civita from '../assets/images/civita.png'
 import logo from '../assets/images/logo.webp'
@@ -450,7 +450,7 @@ export default function Home() {
         }
 
         <div className={styles.imageContainer}>
-          <Image src={img1} alt="napuleth visions" width="1000"
+          <Image src={img1} alt="napuleth visions" width="900"
             height="500"
             sizes="100vw, (max-width: 600px) 500px" objectFit="cover"></Image>
         </div>
