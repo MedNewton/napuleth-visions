@@ -87,7 +87,9 @@ export default function Home() {
               <h5 className={styles.subtitle}>
                 Foresta di Cristallo
               </h5>
-              <p>
+              <p style={{
+                fontWeight: 700
+              }}>
                 A cura di Alessio Esposito
               </p>
               <p>
@@ -117,10 +119,12 @@ export default function Home() {
                 First edition of Napuleth Visions 2025
               </h3>
               <h5 className={styles.subtitle}>
-                Crystal Forest
+                La Foresta Di Cristallo
               </h5>
-              <p>
-                By Alessio Esposito
+              <p style={{
+                fontWeight: 700
+              }}>
+                Curated by Alessio Esposito
               </p>
               <p>
                 From 17 to 19 July 2025, in the spaces of Villa Doria D&apos;Angri in Naples, Foresta di
@@ -316,6 +320,12 @@ export default function Home() {
           )
         }
 
+        <div style={{
+          width: "100%",
+          display: "flex",
+          flexDirection:"column",
+          gap: 0
+        }}>
         {
           language == "it" && (
             <div>
@@ -356,7 +366,7 @@ export default function Home() {
         }
         {
           language == "en" && (
-            <div>
+            <div >
               <h4 className={styles.subtitle}>
                 Location:
               </h4>
@@ -367,7 +377,6 @@ export default function Home() {
             </div>
           )
         }
-
         {
           language == "it" && (
             <div>
@@ -424,7 +433,7 @@ export default function Home() {
           )
         }
 
-        {
+{
           language == "it" && (
             <div>
               <h4 className={styles.subtitle}>
@@ -449,6 +458,11 @@ export default function Home() {
             </div>
           )
         }
+        </div>
+
+        
+
+        
 
         <div className={styles.imageContainer}>
           <Image src={img1} alt="napuleth visions" width="900"
