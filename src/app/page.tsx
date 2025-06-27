@@ -13,6 +13,7 @@ import img1 from '../assets/images/image2.webp'
 import sanCarlo from '../assets/images/SanCarlo.png'
 import civita from '../assets/images/civita.png'
 import commune from '../assets/images/commune.webp'
+import fmg from "../assets/images/FMG_Logo.webp"
 import logo from '../assets/images/logo.webp'
 import itFlag from '../assets/images/italian.png'
 import enFlag from '../assets/images/english.png'
@@ -501,6 +502,16 @@ export default function Home() {
                     scale: 0.85
                   }}
                 ></Image>
+
+                <Image src={fmg}
+                  alt="Fondazione Morra Greco"
+                  width="180"
+                  height="150"
+                  objectFit="contain"
+                  style={{
+                    scale: 1.15
+                  }}
+                ></Image>
               </div>
             </div>
           )
@@ -533,6 +544,16 @@ export default function Home() {
                   objectFit="contain"
                   style={{
                     scale: 0.85
+                  }}
+                ></Image>
+
+                <Image src={fmg}
+                  alt="Fondazione Morra Greco"
+                  width="180"
+                  height="150"
+                  objectFit="contain"
+                  style={{
+                    scale: 1.15
                   }}
                 ></Image>
               </div>
