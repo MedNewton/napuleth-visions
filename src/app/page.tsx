@@ -15,6 +15,7 @@ import civita from '../assets/images/civita.png'
 import commune from '../assets/images/commune.webp'
 import fmg from "../assets/images/FMG_Logo.webp"
 import logo from '../assets/images/logo.webp'
+import familiaeLogo from "../assets/images/FAMILIAE.webp"
 import itFlag from '../assets/images/italian.png'
 import enFlag from '../assets/images/english.png'
 
@@ -324,146 +325,146 @@ export default function Home() {
         <div style={{
           width: "100%",
           display: "flex",
-          flexDirection:"column",
+          flexDirection: "column",
           gap: 0
         }}>
-        {
-          language == "it" && (
-            <div>
-              <h4 className={styles.subtitle}>
-                Ingresso:
-              </h4>
-              <p>
-                Gratuito per la mostra
-              </p>
-            </div>
-          )
-        }
-        {
-          language == "en" && (
-            <div>
-              <h4 className={styles.subtitle}>
-                Entry:
-              </h4>
-              <p>
-                Free for the exhibition
-              </p>
-            </div>
-          )
-        }
+          {
+            language == "it" && (
+              <div>
+                <h4 className={styles.subtitle}>
+                  Ingresso:
+                </h4>
+                <p>
+                  Gratuito per la mostra
+                </p>
+              </div>
+            )
+          }
+          {
+            language == "en" && (
+              <div>
+                <h4 className={styles.subtitle}>
+                  Entry:
+                </h4>
+                <p>
+                  Free for the exhibition
+                </p>
+              </div>
+            )
+          }
 
-        {
-          language == "it" && (
-            <div>
-              <h4 className={styles.subtitle}>
-                Sede:
-              </h4>
-              <p>
-                Villa Doria D’Angri
-                Via Francesco Petrarca 80, Napoli
-              </p>
-            </div>
-          )
-        }
-        {
-          language == "en" && (
-            <div >
-              <h4 className={styles.subtitle}>
-                Location:
-              </h4>
-              <p>
-                Villa Doria D’Angri
-                Via Francesco Petrarca 80, Napoli
-              </p>
-            </div>
-          )
-        }
-        {
-          language == "it" && (
-            <div>
-              <h4 className={styles.subtitle}>
-                Date:
-              </h4>
-              <p>
-                17 - 19 luglio 2025
-              </p>
-            </div>
-          )
-        }
-        {
-          language == "en" && (
-            <div>
-              <h4 className={styles.subtitle}>
-                Date:
-              </h4>
-              <p>
-                17 - 19 July 2025
-              </p>
-            </div>
-          )
-        }
+          {
+            language == "it" && (
+              <div>
+                <h4 className={styles.subtitle}>
+                  Sede:
+                </h4>
+                <p>
+                  Villa Doria D’Angri
+                  Via Francesco Petrarca 80, Napoli
+                </p>
+              </div>
+            )
+          }
+          {
+            language == "en" && (
+              <div >
+                <h4 className={styles.subtitle}>
+                  Location:
+                </h4>
+                <p>
+                  Villa Doria D’Angri
+                  Via Francesco Petrarca 80, Napoli
+                </p>
+              </div>
+            )
+          }
+          {
+            language == "it" && (
+              <div>
+                <h4 className={styles.subtitle}>
+                  Date:
+                </h4>
+                <p>
+                  17 - 19 luglio 2025
+                </p>
+              </div>
+            )
+          }
+          {
+            language == "en" && (
+              <div>
+                <h4 className={styles.subtitle}>
+                  Date:
+                </h4>
+                <p>
+                  17 - 19 July 2025
+                </p>
+              </div>
+            )
+          }
 
-        {
-          language == "it" && (
-            <div>
-              <h4 className={styles.subtitle}>
-                Orari di apertura:
-              </h4>
-              <p>
-                <span style={{ fontSize: "0.8rem" }}>&#9679;</span>&nbsp;Giovedì 17 luglio (Opening): 18:00 – 22:00
-              </p>
-              <p>
-                <span style={{ fontSize: "0.8rem" }}>&#9679;</span>&nbsp;Venerdì 18 e sabato 19 luglio (Visite): 9:00 – 17:00
-              </p>
-            </div>
-          )
-        }
-        {
-          language == "en" && (
-            <div>
-              <h4 className={styles.subtitle}>
-                Opening hours:
-              </h4>
-              <p>
-                <span style={{ fontSize: "0.8rem" }}>&#9679;</span>&nbsp;Thursday 17th July (Opening): 18:00 – 22:00
-              </p>
-              <p>
-                <span style={{ fontSize: "0.8rem" }}>&#9679;</span>&nbsp;Friday 18th and Saturday 19th July (Visiting hours): 9:00 – 17:00
-              </p>
-            </div>
-          )
-        }
+          {
+            language == "it" && (
+              <div>
+                <h4 className={styles.subtitle}>
+                  Orari di apertura:
+                </h4>
+                <p>
+                  <span style={{ fontSize: "0.8rem" }}>&#9679;</span>&nbsp;Giovedì 17 luglio (Opening): 18:00 – 22:00
+                </p>
+                <p>
+                  <span style={{ fontSize: "0.8rem" }}>&#9679;</span>&nbsp;Venerdì 18 e sabato 19 luglio (Visite): 9:00 – 17:00
+                </p>
+              </div>
+            )
+          }
+          {
+            language == "en" && (
+              <div>
+                <h4 className={styles.subtitle}>
+                  Opening hours:
+                </h4>
+                <p>
+                  <span style={{ fontSize: "0.8rem" }}>&#9679;</span>&nbsp;Thursday 17th July (Opening): 18:00 – 22:00
+                </p>
+                <p>
+                  <span style={{ fontSize: "0.8rem" }}>&#9679;</span>&nbsp;Friday 18th and Saturday 19th July (Visiting hours): 9:00 – 17:00
+                </p>
+              </div>
+            )
+          }
 
-{
-          language == "it" && (
-            <div>
-              <h4 className={styles.subtitle}>
-                Contatti
-              </h4>
-              <p>
-                Per interviste, immagini ad alta risoluzione e ulteriori informazioni, scrivere a:
-                <Link href="mailto:visions@napuleth.org" style={{ textDecoration: "underline" }}>visions@napuleth.org</Link>
-              </p>
-            </div>
-          )
-        }
-        {
-          language == "en" && (
-            <div>
-              <h4 className={styles.subtitle}>
-                Contact
-              </h4>
-              <p>
-                For interviews, high resolution images and further information, write to: <Link href="mailto:visions@napuleth.org" style={{ textDecoration: "underline" }}>visions@napuleth.org</Link>
-              </p>
-            </div>
-          )
-        }
+          {
+            language == "it" && (
+              <div>
+                <h4 className={styles.subtitle}>
+                  Contatti
+                </h4>
+                <p>
+                  Per interviste, immagini ad alta risoluzione e ulteriori informazioni, scrivere a:
+                  <Link href="mailto:visions@napuleth.org" style={{ textDecoration: "underline" }}>visions@napuleth.org</Link>
+                </p>
+              </div>
+            )
+          }
+          {
+            language == "en" && (
+              <div>
+                <h4 className={styles.subtitle}>
+                  Contact
+                </h4>
+                <p>
+                  For interviews, high resolution images and further information, write to: <Link href="mailto:visions@napuleth.org" style={{ textDecoration: "underline" }}>visions@napuleth.org</Link>
+                </p>
+              </div>
+            )
+          }
         </div>
 
-        
 
-        
+
+
 
         <div className={styles.imageContainer}>
           <Image src={img1} alt="napuleth visions" width="900"
@@ -512,6 +513,16 @@ export default function Home() {
                     scale: 1.15
                   }}
                 ></Image>
+
+                <Image src={familiaeLogo}
+                  alt="Fondazione Morra Greco"
+                  width="180"
+                  height="150"
+                  objectFit="contain"
+                  style={{
+                    scale: 1.15
+                  }}
+                ></Image>
               </div>
             </div>
           )
@@ -548,6 +559,16 @@ export default function Home() {
                 ></Image>
 
                 <Image src={fmg}
+                  alt="Fondazione Morra Greco"
+                  width="180"
+                  height="150"
+                  objectFit="contain"
+                  style={{
+                    scale: 1.15
+                  }}
+                ></Image>
+
+                <Image src={familiaeLogo}
                   alt="Fondazione Morra Greco"
                   width="180"
                   height="150"
