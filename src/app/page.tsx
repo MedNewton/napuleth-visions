@@ -120,7 +120,7 @@ export default function Home() {
                 First edition of Napuleth Visions 2025
               </h3>
               <h5 className={styles.subtitle}>
-                La Foresta Di Cristallo
+                Foresta Di Cristallo
               </h5>
               <p style={{
                 fontWeight: 700
